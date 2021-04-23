@@ -28,7 +28,7 @@ body{
 		right: 0;
 		top: 250px;
 		transform: rotate(-75deg);
-    animation: move 3s alternate infinite;
+    animation: move 4s alternate infinite;
   }
   .space{
     width: 100%;
@@ -74,14 +74,17 @@ body{
     0%
     {
         top:180px;
+        transform: scalex(1);
     }
     50%
     {
-        top:300px;
+        top:260px;
+        transform: rotatey(10deg);
     }
     100%
     {
         top:180px;
+        transform: scale(2);
     }
   }
   @keyframes flash {
